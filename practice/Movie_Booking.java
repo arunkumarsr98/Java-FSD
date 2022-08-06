@@ -9,7 +9,7 @@ public class Movie_Booking{
  				LinkedList<String> Y=new LinkedList<String>();
  				LinkedList<String> X=new LinkedList<String>();
  				LinkedList<String> W=new LinkedList<String>();
-// 				LinkedList<String> E=new LinkedList<String>();
+
  				for(int i=0;i<10;i++){
  					Z.add("1");
  					Y.add("1");
