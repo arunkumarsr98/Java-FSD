@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>FlyAway</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+   <servlet-mapping>
+    <servlet-name>FlyAway1-servlet</servlet-name>
+    <url-pattern>/Adminlogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FlyAway1-servlet</servlet-name>
+    <servlet-class>flyAway.Adminlogin</servlet-class>
+  </servlet>  
+  
+  <servlet-mapping>
+    <servlet-name>FlyAway2-servlet</servlet-name>
+    <url-pattern>/Flightlist</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FlyAway2-servlet</servlet-name>
+    <servlet-class>flyAway.Flightlist</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+    <servlet-name>FlyAway4-servlet</servlet-name>
+    <url-pattern>/Insertflight</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FlyAway4-servlet</servlet-name>
+    <servlet-class>flyAway.Insertflight</servlet-class>
+  </servlet> 
+  <servlet-mapping>
+    <servlet-name>FlyAway5-servlet</servlet-name>
+    <url-pattern>/Forgotpassword</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FlyAway5-servlet</servlet-name>
+    <servlet-class>flyAway.Forgotpassword</servlet-class>
+  </servlet> 
+  
+   
+</web-app>
