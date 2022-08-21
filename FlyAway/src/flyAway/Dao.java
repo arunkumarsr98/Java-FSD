@@ -106,6 +106,7 @@ public boolean changeAdminPassword(String email, String password) {
 }
 
 public boolean insertFlight(HashMap<String, String> flight) throws SQLException {
+	Insertflight fl=new Insertflight();
 	String query1 = "INSERT INTO flights (name, fromf, tof, datef, timef, price) VALUES";
 	System.out.println(flight.get("datef"));
 	System.out.println(flight.get("timef"));
